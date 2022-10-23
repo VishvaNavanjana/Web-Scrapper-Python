@@ -29,6 +29,7 @@ try:
             count += 1
 
     print(results)
+    driver.quit()
 
 except Exception as e:
     print(e)
